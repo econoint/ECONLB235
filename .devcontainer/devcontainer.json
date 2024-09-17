@@ -1,0 +1,21 @@
+{
+  "name": "R for Data Science",
+  "dockerFile": "tidyverse_4.4.1.Dockerfile",
+  "forwardPorts": [8787],
+  "extensions": [
+    "reditorsupport.r",
+    "yzhang.markdown-all-in-one"
+  ],
+  "postStartCommand": "sudo rstudio-server restart",
+  "customizations": {
+    "codespaces": {
+      "openBrowser": true,
+      "portsAttributes": {
+        "8787": {
+          "label": "RStudio Server",
+          "onAutoForward": "openBrowser"
+        }
+      }
+    }
+  }
+}
