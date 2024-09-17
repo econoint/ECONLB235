@@ -33,3 +33,7 @@ If you are creating a Codespace the first time simply press the large green `Cre
 Each new instance of a Codespace is given a name that includes several words that are nonsense followed by random alphanumeric characters. The combination of nonsense words is what you want to look for when you're restarting a Codespace that you worked in previously. It will be in the same spot that `Create Codespace on Main` was in previously. Immediately to the right of the Codespace name will be three dots (`...`) and pressing on them gives you several options. Select the option to restart the codespace.
 
 ## How to Stop Your Codespace
+
+Once you've finished doing your work in a Codespace for the time being, you can end your R session and close both the tabs of your browser with Visual Studio Code and RStudio open. Then, in this repository, go to the same `Codespace` location described above and find the name of your Codespace instance. Again click on the `...` button, and this time look for the option to stop the Codespace and click on it. *Stopping* a Codespace and *deleting* a Codespace are *NOT* the same thing. DO NOT DELETE A CODESPACE UNLESS YOU ARE PREPARED TO LOSE ALL THE WORK IN IT!
+
+## Monitoring Codespace Resource Usage
