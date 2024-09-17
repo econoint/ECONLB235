@@ -28,9 +28,19 @@ At the top of this repository, you should see a large green button that says `<>
 
 If you are creating a Codespace the first time simply press the large green `Create Codespace on Main` button. This will launch a new browser tab. It will take awhile to initialize the environment the first time.
 
+By default, GitHub launches a Codespace in a new browser tab with Visual Studio Code (a multilanguage IDE made by Microsoft). On the lower portion of the page/IDE is a pane with the several tabs including: Problems, Output, Terminal, Ports.
+
+1. In the `Terminal` tab, type and enter the following: `sudo rstudio-server start`
+2. After pressing pressing enter, you will see a small dialog box in the bottom righthand corner with a button that says `Open in Browser` which you should click on.
+3. After clicking on this button, a new browser tab will open with a login page for RStudio Server. The login details are `username: rstudio` and `password: rstudio`
+
+Step 3 should lead you to the RStudio IDE that you're familiar with from prior classes.
+
 ### Restarting a Codespace
 
 Each new instance of a Codespace is given a name that includes several words that are nonsense followed by random alphanumeric characters. The combination of nonsense words is what you want to look for when you're restarting a Codespace that you worked in previously. It will be in the same spot that `Create Codespace on Main` was in previously. Immediately to the right of the Codespace name will be three dots (`...`) and pressing on them gives you several options. Select the option to restart the codespace.
+
+After selecting the restart Codespace option, follow steps 1 through 3 from the Creating New Codespace section above.
 
 ## How to Stop Your Codespace
 
