@@ -5,17 +5,5 @@
   "extensions": [
     "reditorsupport.r",
     "yzhang.markdown-all-in-one"
-  ],
-  "postStartCommand": "sudo rstudio-server restart",
-  "customizations": {
-    "codespaces": {
-      "openBrowser": true,
-      "portsAttributes": {
-        "8787": {
-          "label": "RStudio Server",
-          "onAutoForward": "openBrowser"
-        }
-      }
-    }
-  }
+  ]
 }
